@@ -41,13 +41,14 @@
             this.accordionControlElement3 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElement4 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElement5 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement8 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElement7 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.accordionControlElement8 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElement6 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement10 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElement9 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.accordionControlElement10 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.documentManager = new DevExpress.XtraBars.Docking2010.DocumentManager(this.components);
             this.tabbedView = new DevExpress.XtraBars.Docking2010.Views.Tabbed.TabbedView(this.components);
+            this.accordionControlElement11 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             ((System.ComponentModel.ISupportInitialize)(this.dockManager)).BeginInit();
             this.dockPanel1.SuspendLayout();
             this.dockPanel1_Container.SuspendLayout();
@@ -104,7 +105,8 @@
             this.accordionControl.Appearance.Item.Pressed.Options.UseBackColor = true;
             this.accordionControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.accordionControl.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
-            this.mainAccordionGroup});
+            this.mainAccordionGroup,
+            this.accordionControlElement11});
             this.accordionControl.Location = new System.Drawing.Point(0, 0);
             this.accordionControl.Name = "accordionControl";
             this.accordionControl.Size = new System.Drawing.Size(193, 704);
@@ -181,19 +183,19 @@
             this.accordionControlElement5.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.accordionControlElement5.Text = "Lấy mật khẩu mới";
             // 
-            // accordionControlElement8
-            // 
-            this.accordionControlElement8.Image = global::SupportTools.Properties.Resources.IconTree;
-            this.accordionControlElement8.Name = "accordionControlElement8";
-            this.accordionControlElement8.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement8.Text = "Thời gian làm việc";
-            // 
             // accordionControlElement7
             // 
             this.accordionControlElement7.Image = global::SupportTools.Properties.Resources.IconTree;
             this.accordionControlElement7.Name = "accordionControlElement7";
             this.accordionControlElement7.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.accordionControlElement7.Text = "Xóa PPA siêu thị";
+            // 
+            // accordionControlElement8
+            // 
+            this.accordionControlElement8.Image = global::SupportTools.Properties.Resources.IconTree;
+            this.accordionControlElement8.Name = "accordionControlElement8";
+            this.accordionControlElement8.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.accordionControlElement8.Text = "Thời gian làm việc";
             // 
             // accordionControlElement6
             // 
@@ -202,19 +204,19 @@
             this.accordionControlElement6.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.accordionControlElement6.Text = "Khu vực bảo vệ";
             // 
-            // accordionControlElement10
-            // 
-            this.accordionControlElement10.Image = global::SupportTools.Properties.Resources.IconTree;
-            this.accordionControlElement10.Name = "accordionControlElement10";
-            this.accordionControlElement10.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement10.Text = "Xóa input chuyền may";
-            // 
             // accordionControlElement9
             // 
             this.accordionControlElement9.Image = global::SupportTools.Properties.Resources.IconTree;
             this.accordionControlElement9.Name = "accordionControlElement9";
             this.accordionControlElement9.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.accordionControlElement9.Text = "Thiết lập quyền hạn";
+            // 
+            // accordionControlElement10
+            // 
+            this.accordionControlElement10.Image = global::SupportTools.Properties.Resources.IconTree;
+            this.accordionControlElement10.Name = "accordionControlElement10";
+            this.accordionControlElement10.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.accordionControlElement10.Text = "Xóa input chuyền may";
             // 
             // documentManager
             // 
@@ -229,6 +231,11 @@
             this.tabbedView.AppearancePage.HeaderActive.Options.UseBackColor = true;
             this.tabbedView.RootContainer.Element = null;
             this.tabbedView.DocumentClosed += new DevExpress.XtraBars.Docking2010.Views.DocumentEventHandler(this.tabbedView_DocumentClosed);
+            // 
+            // accordionControlElement11
+            // 
+            this.accordionControlElement11.Name = "accordionControlElement11";
+            this.accordionControlElement11.Text = "ITS";
             // 
             // Main
             // 
@@ -270,6 +277,7 @@
         private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement8;
         private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement9;
         private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement10;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement11;
     }
 }
 
